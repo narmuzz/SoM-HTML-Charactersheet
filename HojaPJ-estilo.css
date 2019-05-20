@@ -31,6 +31,7 @@ ul {
   border: none;
   flex-grow: 1;
   margin-left: 1px;
+  margin-bottom: 1px;
 }
 
 .cajita {
@@ -886,9 +887,21 @@ ul {
   grid-row-start: 2;
 }
 
+.gridhabilidades5-2 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
+}
+
 .gridhabilidades5-3 {
   grid-column-start: 5;
   grid-row-start: 3;
+}
+
+.gridhabilidades5-3 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
 }
 
 .gridhabilidades5-4 {
@@ -896,9 +909,21 @@ ul {
   grid-row-start: 4;
 }
 
+.gridhabilidades5-4 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
+}
+
 .gridhabilidades5-5 {
   grid-column-start: 5;
   grid-row-start: 5;
+}
+
+.gridhabilidades5-5 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
 }
 
 .gridhabilidades5-6 {
@@ -906,9 +931,21 @@ ul {
   grid-row-start: 6;
 }
 
+.gridhabilidades5-6 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
+}
+
 .gridhabilidades5-7 {
   grid-column-start: 5;
   grid-row-start: 7;
+}
+
+.gridhabilidades5-7 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
 }
 
 .gridhabilidades5-8 {
@@ -916,9 +953,21 @@ ul {
   grid-row-start: 8;
 }
 
+.gridhabilidades5-8 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
+}
+
 .gridhabilidades5-9 {
   grid-column-start: 5;
   grid-row-start: 9;
+}
+
+.gridhabilidades5-9 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
 }
 
 .gridhabilidades5-10 {
@@ -926,9 +975,21 @@ ul {
   grid-row-start: 10;
 }
 
+.gridhabilidades5-10 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
+}
+
 .gridhabilidades5-11 {
   grid-column-start: 5;
   grid-row-start: 11;
+}
+
+.gridhabilidades5-11 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
 }
 
 .gridhabilidades5-12 {
@@ -936,9 +997,21 @@ ul {
   grid-row-start: 12;
 }
 
+.gridhabilidades5-12 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
+}
+
 .gridhabilidades5-13 {
   grid-column-start: 5;
   grid-row-start: 13;
+}
+
+.gridhabilidades5-13 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
 }
 
 .gridhabilidades5-14 {
@@ -946,14 +1019,32 @@ ul {
   grid-row-start: 14;
 }
 
+.gridhabilidades5-14 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
+}
+
 .gridhabilidades5-15 {
   grid-column-start: 5;
   grid-row-start: 15;
 }
 
+.gridhabilidades5-15 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
+}
+
 .gridhabilidades5-16 {
   grid-column-start: 5;
   grid-row-start: 16;
+}
+
+.gridhabilidades5-16 input {
+  width: 47.13px;
+  margin: none;
+  text-align: center;
 }
 
 .gridinventario {
@@ -1147,7 +1238,7 @@ ul {
   width: 50%;
   display: grid;
   grid-template-columns: 49.45% 0.1% 49.45%;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 4mm 5.4mm 5.5mm 5.5mm 5.5mm 5.5mm 5.5mm 5.5mm 5.5mm;
   align-items: flex-end;
 }
 
