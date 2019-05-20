@@ -1,9 +1,22 @@
 body {
-  width: 195mm;
-  height: 263.6mm;
   font-size: 9.5pt;
   font-family: "Times New Roman";
   white-space: nowrap;
+}
+
+.página {
+  width: 195mm;
+  height: 263.6mm;
+  margin-bottom: 1px;
+  border: 1px solid red;
+}
+
+.pagebreak {
+  page-break-after: always;
+}
+
+.página2-margin-top {
+  margin-top: 7px;
 }
 
 input {
