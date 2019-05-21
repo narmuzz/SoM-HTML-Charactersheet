@@ -8,7 +8,6 @@ body {
   width: 195mm;
   height: 263.6mm;
   margin-bottom: 1px;
-  border: 1px solid red;
 }
 
 .pagebreak {
@@ -38,7 +37,7 @@ ul {
 
 .renglon input {
   border: none;
-  flex-grow: 1;
+  flex-grow: 0.9;
   margin-left: 1px;
   margin-bottom: 1px;
 }
@@ -92,8 +91,11 @@ ul {
 }
 
 .textcaja > input {
-  flex-grow: 1;
+  flex-grow: 0.9;
+  width: 90%;
   border: none;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
 .encabezado {
@@ -144,6 +146,21 @@ ul {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  margin-bottom: 1px;
+  background-color: black;
+}
+
+.personaje-logo span {
+  color: white;
+  background-color: black;
+  align-content: flex-end;
+}
+
+.personaje-logo img {
+  margin-top: 2%;
+  width: 100%;
+  background: white;
 }
 
 .aguante-heridas {
@@ -185,9 +202,9 @@ ul {
 .gatillos {
   display: flex;
   width: 50%;
-  height: 15.9mm;
+  height: 18.3mm;
   flex-direction: column;
-  margin-top: 2.8mm;
+  margin-top: 1.5mm;
   justify-content: space-between;
 }
 
@@ -209,6 +226,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: flex-end;
 }
 
 .regen .renglon {
@@ -218,6 +236,10 @@ ul {
 .curaciones {
   display: flex;
   flex-grow: 1;
+}
+
+.curaciones input {
+  height: 65%;
 }
 
 .heridas {
@@ -268,7 +290,7 @@ ul {
   height: 157.41px;
   width: 179.25px;
   display: grid;
-  grid-template-columns: 1fr 8mm 4px 8mm;
+  grid-template-columns: 1fr 8mm 6px 8mm;
   grid-template-rows: 5mm 1fr 5mm 1fr 5mm 1fr 5mm 1fr 5mm;
   align-items: center;
 }
@@ -352,7 +374,7 @@ ul {
   height: 157.41px;
   width: 179.25px;
   display: grid;
-  grid-template-columns: 1fr 8mm 4px 8mm;
+  grid-template-columns: 1fr 8mm 6px 8mm;
   grid-template-rows: 5mm 1fr 5mm 5mm 5mm;
   grid-row-gap: 6px;
   align-items: center;
@@ -433,7 +455,7 @@ ul {
   height: 157.41px;
   width: 179.25px;
   display: grid;
-  grid-template-columns: 5px 1fr 8mm 4px 1fr 8mm 5px;
+  grid-template-columns: 6px 1fr 8mm 4px 1fr 8mm 6px;
   grid-template-rows: 5mm 6px 0.5fr 5mm 1fr 5mm 1fr 5mm 1fr 5mm 1fr;
   align-items: center;
 }
@@ -492,16 +514,20 @@ ul {
 .gridpercepción5-6 {
   grid-column-start: 5;
   grid-row-start: 6;
+  margin-left: 2px;
 }
 
 .gridpercepción5-8 {
   grid-column-start: 5;
   grid-row-start: 8;
+  margin-left: 2px;
+  margin-right: 1px;
 }
 
 .gridpercepción5-10 {
   grid-column-start: 5;
   grid-row-start: 10;
+  margin-left: 2px;
 }
 
 .gridpercepción6-1 {
@@ -543,7 +569,7 @@ ul {
   margin-left: 1px;
   align-content: flex-end;
   margin-bottom: 3px;
-  width: 114.1px;
+  width: 105.1px;
 }
 
 .inputpsíque2 {
@@ -551,7 +577,7 @@ ul {
   margin-left: 1px;
   align-content: flex-end;
   margin-bottom: 3px;
-  width: 112.57px;
+  width: 108.57px;
 }
 
 .inputpsíque3 {
@@ -559,7 +585,7 @@ ul {
   margin-left: 1px;
   align-content: flex-end;
   margin-bottom: 3px;
-  width: 79.04px;
+  width: 75.04px;
 }
 
 .inputpsíque4 {
@@ -567,7 +593,7 @@ ul {
   margin-left: 1px;
   align-content: flex-end;
   margin-bottom: 3px;
-  width: 87.6px;
+  width: 83.6px;
 }
 
 .inputpsíque5 {
@@ -575,7 +601,7 @@ ul {
   margin-left: 1px;
   align-content: flex-end;
   margin-bottom: 3px;
-  width: 91.44px;
+  width: 87.44px;
 }
 
 .gridpsíque1-1 {
@@ -1237,10 +1263,12 @@ ul {
   height: 47.6mm;
 }
 
-.armadura-daño {
+.grid-armadura-daño {
   width: 50%;
-  display: flex;
-  flex-direction: column;
+  height: 179.89px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4mm 5.4mm 144.37px;
 }
 
 .gridarmas {
@@ -1347,50 +1375,53 @@ ul {
 
 .renglonarmas1 input {
   width: 131.19px;
+  height: 3.5mm;
 }
 
 .renglonarmas2 input {
   width: 129.78px;
+  height: 3.5mm;
 }
 
 .renglonarmas3 input {
   width: 103.07px;
+  height: 3.5mm;
 }
 
 .renglonarmas4 input {
   width: 118.15px;
+  height: 3.5mm;
 }
 
 .renglonarmas5 input {
   width: 124.86px;
+  height: 3.5mm;
 }
 
 .renglonarmas6 input {
   width: 122.03px;
+  height: 3.5mm;
 }
 
 .renglonarmas7 input {
   width: 99.17px;
+  height: 3.5mm;
 }
 
 .renglonarmas8 input {
   width: 148.08px;
+  height: 3.5mm;
 }
 
-.armadura {
-  display: flex;
-  flex-direction: column;
-  height: 10mm;
-}
-
-.armadura .cajatit {
+.grid-armadura-daño1-1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
   text-align: center;
-  height: 5mm;
 }
 
-.armadura-elementos {
-  width: 100%;
-  height: 4.35mm;
+.grid-armadura-daño1-2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
   display: flex;
   flex-direction: row;
 }
@@ -1417,47 +1448,236 @@ ul {
 }
 
 .armadura-abertura input {
-  width: 34.48px;
+  width: 25.48px;
   margin-right: 1px;
 }
 
-.tabla-daño {
-  height: 37.6mm;
-  margin-top: 2px;
+.grid-armadura-daño1-3 {
+  grid-column-start: 1;
+  grid-row-start: 3;
 }
 
-.tabla-daño .cajatit {
+.grid-tabladaño {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 15mm 1fr;
+  grid-template-rows: 4mm 18.33px 18.33px 18.33px 18.33px 18.33px 18.33px 18.33px;
   text-align: center;
+  align-items: center;
+  margin-top: 1px;
+
 }
 
-.tabla-daño table {
-  width: 100.1%;
-  height: 33.37mm;
-  margin-top: 1.7px;
-  text-align: center;
-  border-collapse: collapse;
+.grid-tabladaño td {
+  width: 8.33%;
+}
+
+.grid-tabladaño1-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+}
+
+.grid-tabladaño1-1-border {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  align-self: stretch;
+  border-bottom: 1px solid black;
+}
+
+.grid-tabladaño1-2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.grid-tabladaño1-2-border {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  align-self: stretch;
   border-left: 1px solid black;
   border-right: 1px solid black;
-}
-
-.tabla-daño td {
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
-  width: 5.9mm;
 }
 
-.tablanegrita {
-  font-weight: bold;
+.grid-tabladaño1-3 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.grid-tabladaño1-3-border {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  align-self: stretch;
+  border-left: 1px solid black;
   border-right: 1px solid black;
-  width: 12.2mm;
+  border-bottom: 1px solid black;
+}
+
+.grid-tabladaño1-4 {
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+.grid-tabladaño1-4-border {
+  grid-column-start: 1;
+  grid-row-start: 4;
+  align-self: stretch;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+.grid-tabladaño1-5 {
+  grid-column-start: 1;
+  grid-row-start: 5;
+}
+
+.grid-tabladaño1-5-border {
+  grid-column-start: 1;
+  grid-row-start: 5;
+  align-self: stretch;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.grid-tabladaño1-6 {
+  grid-column-start: 1;
+  grid-row-start: 6;
+}
+
+.grid-tabladaño1-6-border {
+  grid-column-start: 1;
+  grid-row-start: 6;
+  align-self: stretch;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+.grid-tabladaño1-7 {
+  grid-column-start: 1;
+  grid-row-start: 7;
+}
+
+.grid-tabladaño1-7-border {
+  grid-column-start: 1;
+  grid-row-start: 7;
+  align-self: stretch;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.grid-tabladaño1-8 {
+  grid-column-start: 1;
+  grid-row-start: 8;
+}
+
+.grid-tabladaño1-8-border {
+  grid-column-start: 1;
+  grid-row-start: 8;
+  align-self: stretch;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .impactonegrita {
   font-weight: bold;
 }
 
-.ayudavisualtabla {
+.grid-tabladaño2-2 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.grid-tabladaño2-2-border {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  align-self: stretch;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.grid-tabladaño2-3 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.grid-tabladaño2-3-border {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  align-self: stretch;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.grid-tabladaño2-4 {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+.grid-tabladaño2-4-border {
+  grid-column-start: 2;
+  grid-row-start: 4;
+  align-self: stretch;
+  border-right: 1px solid black;
   border-bottom: 2px solid black;
+}
+
+.grid-tabladaño2-5 {
+  grid-column-start: 2;
+  grid-row-start: 5;
+}
+
+.grid-tabladaño2-5-border {
+  grid-column-start: 2;
+  grid-row-start: 5;
+  align-self: stretch;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.grid-tabladaño2-6 {
+  grid-column-start: 2;
+  grid-row-start: 6;
+}
+
+.grid-tabladaño2-6-border {
+  grid-column-start: 2;
+  grid-row-start: 6;
+  align-self: stretch;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+.grid-tabladaño2-7 {
+  grid-column-start: 2;
+  grid-row-start: 7;
+}
+
+.grid-tabladaño2-7-border {
+  grid-column-start: 2;
+  grid-row-start: 7;
+  align-self: stretch;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.grid-tabladaño2-8 {
+  grid-column-start: 2;
+  grid-row-start: 8;
+}
+
+.grid-tabladaño2-8-border {
+  grid-column-start: 2;
+  grid-row-start: 8;
+  align-self: stretch;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 /* FIN PÁGINA 1 */
@@ -1923,13 +2143,6 @@ ul {
 .gridrex td {
   width: 6.25%;
 }
-
-
-
-
-
-
-
 
 .gridanotaciones {
   width: 100%;
