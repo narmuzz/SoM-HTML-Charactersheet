@@ -153,6 +153,7 @@ ul {
 
 .personaje-logo span {
   color: white;
+  font-weight: bold;
   background-color: black;
   align-content: flex-end;
 }
@@ -291,7 +292,7 @@ ul {
   width: 179.25px;
   display: grid;
   grid-template-columns: 1fr 8mm 6px 8mm;
-  grid-template-rows: 5mm 1fr 5mm 1fr 5mm 1fr 5mm 1fr 5mm;
+  grid-template-rows: 0px 1fr 5mm 1fr 5mm 1fr 5mm 1fr 5mm;
   align-items: center;
 }
 
@@ -467,9 +468,14 @@ ul {
 
 .gridpercepción1-4 {
   grid-column-start: 1;
-  grid-column-end: 8;
+  grid-column-end: 4;
   grid-row-start: 4;
   justify-self: center;
+}
+
+.gridpercepción1-4 span {
+  white-space: normal;
+  text-align: center;
 }
 
 .recuadrohabssociales1-3 {
@@ -509,6 +515,18 @@ ul {
 .gridpercepción3-10 {
   grid-column-start: 3;
   grid-row-start: 10;
+}
+
+.gridpercepción5-4 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  justify-self: center;
+}
+
+.gridpercepción5-4 span {
+  white-space: normal;
+  text-align: center;
 }
 
 .gridpercepción5-6 {
