@@ -170,7 +170,7 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-bottom: 3px;
+  margin-bottom: 1px;
 }
 
 .aguante-gatillos {
@@ -456,7 +456,7 @@ ul {
   height: 157.41px;
   width: 179.25px;
   display: grid;
-  grid-template-columns: 6px 1fr 8mm 4px 1fr 8mm 6px;
+  grid-template-columns: 3px 1fr 8mm 6px 2px 1fr 8mm 3px;
   grid-template-rows: 5mm 6px 0.5fr 5mm 1fr 5mm 1fr 5mm 1fr 5mm 1fr;
   align-items: center;
 }
@@ -464,6 +464,11 @@ ul {
 .gridpercepción1-1 {
   grid-column-start: 1;
   grid-row-start: 1;
+  grid-column-end: 9;
+}
+
+.gridpercepción1-1 input {
+  width: 20px;
 }
 
 .gridpercepción1-4 {
@@ -480,7 +485,7 @@ ul {
 
 .recuadrohabssociales1-3 {
   grid-column-start: 1;
-  grid-column-end: 8;
+  grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 12;
   border: 1px solid black;
@@ -517,56 +522,68 @@ ul {
   grid-row-start: 10;
 }
 
-.gridpercepción5-4 {
+.recuadrohabssociales5-3 {
   grid-column-start: 5;
-  grid-column-end: 7;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 12;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  align-self: stretch;
+}
+
+.gridpercepción6-4 {
+  grid-column-start: 6;
+  grid-column-end: 8;
   grid-row-start: 4;
   justify-self: center;
 }
 
-.gridpercepción5-4 span {
+.gridpercepción6-4 span {
   white-space: normal;
   text-align: center;
-}
-
-.gridpercepción5-6 {
-  grid-column-start: 5;
-  grid-row-start: 6;
-  margin-left: 2px;
-}
-
-.gridpercepción5-8 {
-  grid-column-start: 5;
-  grid-row-start: 8;
-  margin-left: 2px;
-  margin-right: 1px;
-}
-
-.gridpercepción5-10 {
-  grid-column-start: 5;
-  grid-row-start: 10;
-  margin-left: 2px;
-}
-
-.gridpercepción6-1 {
-  grid-column-start: 6;
-  grid-row-start: 1;
-  margin-left: 3px;
 }
 
 .gridpercepción6-6 {
   grid-column-start: 6;
   grid-row-start: 6;
+  margin-left: 2px;
 }
 
 .gridpercepción6-8 {
   grid-column-start: 6;
   grid-row-start: 8;
+  margin-left: 2px;
+  margin-right: 1px;
 }
 
 .gridpercepción6-10 {
   grid-column-start: 6;
   grid-row-start: 10;
+  margin-left: 2px;
+}
+
+.gridpercepción7-6 {
+  grid-column-start: 7;
+  grid-row-start: 6;
+}
+
+.gridpercepción7-8 {
+  grid-column-start: 7;
+  grid-row-start: 8;
+}
+
+.gridpercepción7-10 {
+  grid-column-start: 7;
+  grid-row-start: 10;
+}
+
+.recuadrohabssociales9-1 {
+  grid-column-start: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-left: 1px solid black;
+  align-self: stretch;
 }
 
 .gridpsíque {
@@ -595,7 +612,7 @@ ul {
   margin-left: 1px;
   align-content: flex-end;
   margin-bottom: 3px;
-  width: 108.57px;
+  width: 100px;
 }
 
 .inputpsíque3 {
@@ -657,16 +674,18 @@ ul {
   grid-row-start: 11;
 }
 
-.gridpsíque3-1 {
-  grid-column-start: 3;
+.gridpsíque4-1 {
+  grid-column-start: 4;
   grid-row-start: 1;
   justify-self: center;
 }
 
-.gridpsíque4-1 {
-  grid-column-start: 4;
-  grid-row-start: 1;
-  justify-self: right;
+.cajita {
+  border: 1px solid black;
+  width: 8mm;
+  height: 5mm;
+  margin-right: 4px;
+  text-align: center;
 }
 
 .gridpsíque4-5 {
@@ -724,6 +743,7 @@ ul {
   display: flex;
   width: 100%;
   height: 95mm;
+  margin-top: 2px;
   flex-direction: row;
 }
 
@@ -1932,7 +1952,7 @@ ul {
   display: grid;
   align-content: flex-end;
   grid-template-columns: 23mm 1fr;
-  grid-template-rows: 6mm 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 6mm 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr 2.9fr;
   text-align: center;
   align-items: center;
 }
@@ -1962,9 +1982,7 @@ ul {
   grid-row-start: 2;
   grid-row-end: 4;
   align-self: stretch;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border: 1px solid black;
 }
 
 .gridrex1-4 {
@@ -2050,6 +2068,29 @@ ul {
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   margin-bottom: 1px;
+}
+
+.gridrex1-10 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 10;
+  text-align: start;
+}
+
+.gridrex1-10 span {
+  font-size: 8pt;
+}
+
+.gridrex1-11 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 11;
+  text-align: start;
+  white-space: normal;
+}
+
+.gridrex1-11 span {
+  font-size: 8pt;
 }
 
 .gridrex2-2 {

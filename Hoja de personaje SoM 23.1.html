@@ -82,8 +82,8 @@
         </div>
         <div class="gridfísico">
           <span class="gridfísico1-3">Resistencia al dolor</span>
-          <span class="gridfísico1-5">Cap muscular (CaM)</span>
-          <span class="gridfísico1-7">Bloqueo desarmado</span>
+          <span class="gridfísico1-5">Bloqueo desarmado</span>
+          <span class="gridfísico1-7">Cap muscular (CaM)</span>
           <div class="renglon impa-pen gridfísico1-9">
             <span>Impa/Pen desarmada:</span
             ><input type="text" class="impa-pen-input" />
@@ -123,32 +123,33 @@
           <span>PERCEPCIÓN</span><input type="text" />
         </div>
         <div class="gridpercepción">
-          <span class="gridpercepción1-1">Mira adicional</span>
+          <div class="gridpercepción1-1 renglon"><span>Sentidos/Mira adicional:</span><input type="text"></div>
           <div class=" cajatit gridpercepción1-4">
-            <span>RASGOS SOCIALES</span>
+            <span>ACCIONES SOCIALES</span>
           </div>
           <div class="recuadrohabssociales1-3"></div>
-          <span class="gridpercepción2-6">Empatía</span>
-          <span class="gridpercepción2-8">Razón</span>
+          <span class="gridpercepción2-6">Empática</span>
+          <span class="gridpercepción2-8">Racional</span>
           <span class="gridpercepción2-10">Agresiva</span>
           <input type="text" class="cajita gridpercepción3-6" />
           <input type="text" class="cajita gridpercepción3-8" />
           <input type="text" class="cajita gridpercepción3-10" />
-          <div class=" cajatit gridpercepción5-4">
-            <span>RESISTENCIAS SOCIALES</span>
+          <div class="recuadrohabssociales5-3"></div>
+          <div class=" cajatit gridpercepción6-4">
+            <span>PSIQUE SOCIAL</span>
           </div>
-          <span class="gridpercepción5-6">Apatía</span>
-          <span class="gridpercepción5-8">Irracional</span>
-          <span class="gridpercepción5-10">Valentía</span>
-          <input type="text" class="cajita gridpercepción6-1" />
-          <input type="text" class="cajita gridpercepción6-6" />
-          <input type="text" class="cajita gridpercepción6-8" />
-          <input type="text" class="cajita gridpercepción6-10" />
+          <span class="gridpercepción6-6">Apática</span>
+          <span class="gridpercepción6-8">Irracional</span>
+          <span class="gridpercepción6-10">Valerosa</span>
+          <input type="text" class="cajita gridpercepción7-6" />
+          <input type="text" class="cajita gridpercepción7-8" />
+          <input type="text" class="cajita gridpercepción7-10" />
+          <div class="recuadrohabssociales9-1"></div>
         </div>
       </div>
       <div class="atrib">
         <div class="cajatit atribhead">
-          <span>PSÍQUE</span><input type="text" />
+          <span>PSIQUE</span><input type="text" />
         </div>
         <div class="gridpsíque">
           <div class="gridpsíquerenglon1-3"></div>
@@ -177,9 +178,8 @@
             <span class="spanpsíque">(5 a 6) Insomnio:</span
             ><input type="text" class="inputpsíque5" />
           </div>
-          <input type="text" class="cajita gridpsíque3-1" />
-          <span class="gridpsíque4-1">de 20</span>
-          <span class="gridpsíque4-5">de 20</span>
+          <input type="text" class="cajita gridpsíque4-1" />
+          <span class="gridpsíque4-5">de 100</span>
         </div>
       </div>
     </div>
@@ -355,7 +355,7 @@
           <div class="grid-armadura-daño1-2">
             <div class="renglon armadura-nombre"><input type="text" /></div>
             <div class="renglon armadura-protección"><span>Protección:</span><input type="text" /></div>
-            <div class="renglon armadura-abertura"><span>Abertura:</span><input type="text" /><span>de 20</span></div>
+            <div class="renglon armadura-abertura"><span>Abertura:</span><input type="text" /></div>
           </div>
           <div class="grid-armadura-daño1-3">
             <div class="grid-tabladaño">
@@ -545,7 +545,7 @@
       <div class="grid-rex-anotaciones">
         <div class="grid-rex-anotaciones1-1">
           <div class="gridrex">
-            <div class="cajatit gridrex1-1"><span>TABLA DE REX</span></div>
+            <div class="cajatit gridrex1-1"><span>TABLA DE RANGO DE ÉXITO (REX)</span></div>
             <div class="gridrex1-2"><span class="gridrex-negrita">Penalizadores</span></div>
             <div class="gridrex1-2-border"></div>
             <div class="gridrex1-4"><span class="gridrex-negrita">No P</span></div>
@@ -560,6 +560,8 @@
             <div class="gridrex1-8-border"></div>
             <div class="gridrex1-9"><span class="gridrex-negrita">5P+</span></div>
             <div class="gridrex1-9-border"></div>
+            <div class="gridrex1-10"><span class="gridrex-negrita">Tirada de REX</span><span>:Tirar un d100. Si es igual o menor al REX, la tirada es exitosa.</span></div>
+            <div class="gridrex1-11"><span class="gridrex-negrita">Tirada contrapuesta</span><span>:Competencia de 2 o más personajes, los involucrados realizan una tirada de REX. El éxito de mayor d100 queda en primer lugar, el fallo de mayor d100 queda en el lugar siguiente al peor éxito y el fallo con menor d100 queda en último lugar. No quedar en primer lugar puede entenderse como ser menos exitoso o como un fracaso absoluto según el caso.</span></div>
             <div class="gridrex2-2"><span class="gridrex-negrita">Facilidad</span></div>
             <div class="gridrex2-2-border"></div>
             <table class="gridrex2-3"><tr>
@@ -582,117 +584,117 @@
             </tr></table>
             <div class="gridrex2-3-border"></div>
             <table class="gridrex2-4"><tr>
-                <td>15</td>
-                <td>16</td>
-                <td>17</td>
-                <td>18</td>
-                <td>19</td>
                 <td>20</td>
-                <td>21</td>
-                <td>22</td>
-                <td>23</td>
-                <td>24</td>
                 <td>25</td>
-                <td>26</td>
-                <td>27</td>
-                <td>28</td>
                 <td>30</td>
-                <td>32</td>
+                <td>35</td>
+                <td>40</td>
+                <td>45</td>
+                <td>50</td>
+                <td>55</td>
+                <td>60</td>
+                <td>65</td>
+                <td>70</td>
+                <td>75</td>
+                <td>80</td>
+                <td>85</td>
+                <td>90</td>
+                <td>95</td>
               </tr></table>
             <div class="gridrex2-4-border"></div>
             <table class="gridrex2-5"><tr>
-                  <td>14</td>
-                  <td>15</td>
                   <td>16</td>
-                  <td>17</td>
-                  <td>18</td>
-                  <td>18</td>
-                  <td>19</td>
-                  <td>20</td>
                   <td>21</td>
-                  <td>22</td>
-                  <td>22</td>
-                  <td>23</td>
-                  <td>24</td>
-                  <td>24</td>
                   <td>25</td>
-                  <td>26</td>
+                  <td>29</td>
+                  <td>33</td>
+                  <td>37</td>
+                  <td>42</td>
+                  <td>46</td>
+                  <td>50</td>
+                  <td>54</td>
+                  <td>58</td>
+                  <td>62</td>
+                  <td>67</td>
+                  <td>71</td>
+                  <td>75</td>
+                  <td>79</td>
               </tr></table>
             <div class="gridrex2-5-border"></div>
             <table class="gridrex2-6"><tr>
-                  <td>12</td>
                   <td>13</td>
-                  <td>14</td>
-                  <td>15</td>
-                  <td>16</td>
                   <td>17</td>
-                  <td>17</td>
-                  <td>18</td>
-                  <td>19</td>
-                  <td>19</td>
                   <td>20</td>
-                  <td>20</td>
-                  <td>21</td>
-                  <td>21</td>
-                  <td>22</td>
                   <td>23</td>
+                  <td>26</td>
+                  <td>30</td>
+                  <td>33</td>
+                  <td>37</td>
+                  <td>40</td>
+                  <td>43</td>
+                  <td>47</td>
+                  <td>50</td>
+                  <td>53</td>
+                  <td>57</td>
+                  <td>60</td>
+                  <td>63</td>
               </tr></table>
               <div class="gridrex2-6-border"></div>
               <table class="gridrex2-7"><tr>
                   <td>10</td>
-                  <td>11</td>
-                  <td>12</td>
                   <td>13</td>
-                  <td>14</td>
-                  <td>14</td>
                   <td>15</td>
-                  <td>16</td>
-                  <td>16</td>
                   <td>17</td>
-                  <td>17</td>
-                  <td>18</td>
-                  <td>18</td>
-                  <td>19</td>
-                  <td>19</td>
                   <td>20</td>
+                  <td>23</td>
+                  <td>25</td>
+                  <td>28</td>
+                  <td>30</td>
+                  <td>32</td>
+                  <td>35</td>
+                  <td>37</td>
+                  <td>40</td>
+                  <td>43</td>
+                  <td>45</td>
+                  <td>47</td>
               </tr></table>
               <div class="gridrex2-7-border"></div>
               <table class="gridrex2-8"><tr>
-                  <td>9</td>
-                  <td>9</td>
+                  <td>6</td>
+                  <td>8</td>
                   <td>10</td>
                   <td>11</td>
-                  <td>11</td>
-                  <td>12</td>
-                  <td>12</td>
                   <td>13</td>
-                  <td>14</td>
-                  <td>14</td>
-                  <td>14</td>
                   <td>15</td>
-                  <td>15</td>
-                  <td>15</td>
-                  <td>16</td>
-                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>20</td>
+                  <td>22</td>
+                  <td>23</td>
+                  <td>25</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>30</td>
+                  <td>32</td>
               </tr></table>
               <div class="gridrex2-8-border"></div>
               <table class="gridrex2-9"><tr>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
                   <td>6</td>
                   <td>7</td>
-                  <td>7</td>
-                  <td>8</td>
                   <td>8</td>
                   <td>9</td>
-                  <td>9</td>
-                  <td>9</td>
                   <td>10</td>
-                  <td>10</td>
-                  <td>10</td>
-                  <td>11</td>
-                  <td>11</td>
-                  <td>11</td>
                   <td>11</td>
                   <td>12</td>
+                  <td>13</td>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
               </tr></table>
               <div class="gridrex2-9-border"></div>
           </div>
