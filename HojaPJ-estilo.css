@@ -38,7 +38,7 @@ ul {
 .renglon input {
   border: none;
   flex-grow: 0.9;
-  margin-left: 1px;
+  margin-left: 2px;
   margin-bottom: 1px;
 }
 
@@ -87,7 +87,7 @@ ul {
 }
 
 .textcaja > span {
-  margin-left: 1px;
+  margin-left: 2px;
 }
 
 .textcaja > input {
@@ -96,6 +96,9 @@ ul {
   border: none;
   margin-left: 5%;
   margin-top: 5%;
+  text-align: left;
+  align-items: flex-start;
+  white-space: normal;
 }
 
 .encabezado {
@@ -181,23 +184,23 @@ ul {
 
 .aguante {
   display: flex;
-  width: 50%;
+  width: 51.15%;
   height: 19.8mm;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  margin-right: 4px;
+  margin-right: 6px;
 }
 
 .aguante > .cajatit {
-  width: 16.8mm;
+  width: 16.1mm;
   height: 19.45mm;
   margin-right: 4px;
 }
 
 .aguante > .textcaja {
   flex-grow: 1;
-  height: 15mm;
+  height: 14.8mm;
 }
 
 .gatillos {
@@ -523,18 +526,24 @@ ul {
 }
 
 .recuadrohabssociales5-3 {
-  grid-column-start: 5;
+  grid-column-start: 6;
   grid-column-end: 9;
   grid-row-start: 3;
   grid-row-end: 12;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  border-left: 1px solid black;
   align-self: stretch;
+}
+
+.gridpercepción6-1 {
+  grid-column-start: 6;
+  grid-row-start: 1;
 }
 
 .gridpercepción6-4 {
   grid-column-start: 6;
-  grid-column-end: 8;
+  grid-column-end: 9;
   grid-row-start: 4;
   justify-self: center;
 }
@@ -563,6 +572,13 @@ ul {
   margin-left: 2px;
 }
 
+.gridpercepción7-1 {
+  grid-column-start: 7;
+  grid-row-start: 1;
+  margin-right: 13px;
+  justify-self: right;
+}
+
 .gridpercepción7-6 {
   grid-column-start: 7;
   grid-row-start: 6;
@@ -576,14 +592,6 @@ ul {
 .gridpercepción7-10 {
   grid-column-start: 7;
   grid-row-start: 10;
-}
-
-.recuadrohabssociales9-1 {
-  grid-column-start: 9;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  border-left: 1px solid black;
-  align-self: stretch;
 }
 
 .gridpsíque {
@@ -601,7 +609,7 @@ ul {
 
 .inputpsíque1 {
   border: none;
-  margin-left: 1px;
+  margin-left: 3px;
   align-content: flex-end;
   margin-bottom: 3px;
   width: 105.1px;
@@ -609,7 +617,7 @@ ul {
 
 .inputpsíque2 {
   border: none;
-  margin-left: 1px;
+  margin-left: 3px;
   align-content: flex-end;
   margin-bottom: 3px;
   width: 100px;
@@ -617,7 +625,7 @@ ul {
 
 .inputpsíque3 {
   border: none;
-  margin-left: 1px;
+  margin-left: 3px;
   align-content: flex-end;
   margin-bottom: 3px;
   width: 75.04px;
@@ -625,7 +633,7 @@ ul {
 
 .inputpsíque4 {
   border: none;
-  margin-left: 1px;
+  margin-left: 3px;
   align-content: flex-end;
   margin-bottom: 3px;
   width: 83.6px;
@@ -633,7 +641,7 @@ ul {
 
 .inputpsíque5 {
   border: none;
-  margin-left: 1px;
+  margin-left: 3px;
   align-content: flex-end;
   margin-bottom: 3px;
   width: 87.44px;
@@ -678,14 +686,6 @@ ul {
   grid-column-start: 4;
   grid-row-start: 1;
   justify-self: center;
-}
-
-.cajita {
-  border: 1px solid black;
-  width: 8mm;
-  height: 5mm;
-  margin-right: 4px;
-  text-align: center;
 }
 
 .gridpsíque4-5 {
@@ -776,6 +776,7 @@ ul {
 .habilidades-f > input {
   width: 5mm;
   text-align: center;
+  margin-left: 0px;
 }
 
 .cajitahabs {
