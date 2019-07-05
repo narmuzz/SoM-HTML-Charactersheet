@@ -295,7 +295,7 @@ ul {
   width: 179.25px;
   display: grid;
   grid-template-columns: 1fr 8mm 6px 8mm;
-  grid-template-rows: 0px 1fr 5mm 1fr 5mm 1fr 5mm 1fr 5mm;
+  grid-template-rows: 0px 1fr 5mm 1fr 5mm 1fr 5mm 1fr 5mm 1fr 5mm;
   align-items: center;
 }
 
@@ -323,6 +323,13 @@ ul {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 9;
+}
+
+.gridfísico1-11 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 11;
+  border-bottom: 1px dashed black;
 }
 
 .gridfísico2-1 {
